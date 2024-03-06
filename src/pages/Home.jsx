@@ -13,6 +13,7 @@ export const Home = () => {
   const { alerts, setAlerts } = useContext(AlertsContext);
   const [alertConfirms, setAlertConfirms] = useState([]);
   const timer = useRef(0);
+
   const handlerAlertsConfirms = (alert) => {
     setAlertConfirms([...alert]);
   };

@@ -42,7 +42,7 @@ nav {
 .priceElement {
   display: flex;
   justify-content: space-evenly;
-  width: 400px;
+  width: 600px;
   flex-wrap: wrap;
   border: 1px solid transparent;
   border-radius: 0.5em;
@@ -68,7 +68,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-  font-size: 0.85em;
+  font-size: 0.8em;
 }
 .active {
   color: red;

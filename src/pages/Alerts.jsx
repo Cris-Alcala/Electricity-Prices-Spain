@@ -10,7 +10,7 @@ export const Alerts = () => {
   return (
     <Layout>
       <div className="alerts">
-        {alerts.length > 0 &&
+        {(alerts.length > 0 ) &&
           alerts.map((element_) => (
             <PriceElement
               element={element_}

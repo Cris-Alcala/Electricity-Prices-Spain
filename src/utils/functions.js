@@ -79,7 +79,8 @@ export const manageAlert = (array, element_, function_) => {
         confirmButtonText: "Accept",
       });
     } else {
-      function_([...array, element_]);
+      const newAlerts = [...array, element_];
+      function_([...newAlerts]);
       Swal.fire({
         title: "Success!",
         text: "The alert has been set successfully",
